@@ -1,0 +1,44 @@
+.main-login-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.width-percent-50 {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.forgot-info a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.forgot-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-card {
+    width: 50%;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}

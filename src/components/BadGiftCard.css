@@ -1,0 +1,26 @@
+.giftCardReportingForm{
+    padding:15px 30px;
+    margin-bottom:30px; 
+    background:#fff; 
+    border:1px solid #e8e8e8; border-left: 3px solid #757575;
+     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+     margin-top: 100px;
+     margin-left: 20px;
+     margin-right:20px;
+}
+.giftCardTitle{
+    font-size: 1.1em;
+}
+.textBox{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+}
+.inputWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    text-align: center;
+}
