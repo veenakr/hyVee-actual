@@ -6,7 +6,9 @@ class LoginPage extends React.Component {
 
     heading = "EMPLOYEE LOGIN";
     state = {
-        err: ""
+        err: "",
+        username: "",
+        password: ""
     };
 
     handleChange = (e) => {
@@ -17,14 +19,22 @@ class LoginPage extends React.Component {
 
     handleFormSubmit = (e) => {
         e.preventDefault();
-        console.log(this.props);
-        this.props.history.push('/dashboard');
+        if(this.state.username === "" || this.state.password === "") {
+            this.setState({
+                err: "Please Enter Username/Password"
+            })
+        }
+        else {
+            this.props.history.push('/dashboard');
+        }
+        
     }
 
     render() {
         return(
             <div>
                 <MainNav />
+                <p>{this.state.err}</p>
             <div className="main-login-card">
                 <div className="card">
                     <div className="inner-card">

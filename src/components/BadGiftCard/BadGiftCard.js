@@ -11,7 +11,7 @@ class BadGiftCard extends React.Component {
                     <input className='textBox' type='text' placeholder='Store ID' />
                     <input className='textBox' type='text' placeholder='Store Name' />
                     <input className='textBox' type='text' placeholder='Bad Gift Card No.' />
-                    <input type='button' value='SUBMIT' />
+                    <input type='button' value='SUBMIT' onClick={this.props.handleOnSubmit} />
                 </div>
             </div>
         );

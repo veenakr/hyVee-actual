@@ -3,7 +3,7 @@ import './MainNav.css';
 
 const MainNav = () => (
     <div className="navbar">
-        <li><a href="#">HyVee</a></li>
+        <li><a href="/login">HyVee</a></li>
     </div>
 )
 
